@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>NetHeal website</title>
+</head>
+<body>
+  <!-- navbar -->
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" id="logo">
+        <img src="assets/logo.png" alt="logoimg" class="w-13 h-13">
+        <span class="ml-3 text-3xl font-bold text-[#006f9f]">HealNet</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center text-black" id="nav">
+        <a class="mr-5 hover:text-[#0085ca] text-[#0085ca] text-2xl" id="navhome">Home</a>
+        <a class="mr-5 hover:text-[#0085ca] text-2xl">Services</a>
+        <a class="mr-5 hover:text-[#0085ca] text-2xl">Find Doctors</a>
+        <a class="mr-5 hover:text-[#0085ca] text-2xl">About us</a>
+        <a class="mr-5 hover:text-[#0085ca] text-2xl">Blog</a>
+        <a class="mr-5 hover:text-[#0085ca] text-2xl">Contact Us</a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+        id="hbtn">Join Us
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- herosection -->
+  <div id="container">
+    <div id="content">
+      <h1 id="heroh1">Your<span> trusted partner <br></span>in digital healthcare.</h1>
+      <p id="heropara"><span>Empowering Your Health at Every Step.</span> Experience personalized medical <br> care from
+        the comfort of your home. Connect with <span> certified doctors, </span> or <br> manage prescriptions, and
+        schedule appointments with ease. Ready to <br> take control of your health?<span> Get Started</span> or Book an
+        Appointment today.</p>
+      <button type="submit" id="herobtn">Book an appointment ></button>
+      <h3>Trusted by millions across the globe:</h3>
+      <img src="assets/Group 10 (1).png" alt="">
+    </div>
+    <div id="image">
+      <img src="assets/doc1.png">
+    </div>
+  </div>
+
+  <!-- booking -->
+  <section class="text-gray-600 body-font" id="middlesec">
+    <div class="container px-5 py-24">
+
+      <div class="flex flex-col text-center w-full">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-8 text-gray-900">
+          Easily book an appointment in three simple steps.
+        </h1>
+
+        <div class="flex justify-center w-full gap-6">
+
+          <!-- Step 1 -->
+          <div class="flex flex-col items-start">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="assets/ic_round-email.png" alt="">
+              <p>Email Address</p>
+            </div>
+            <input class="styled-input" type="email" placeholder="Enter your email address">
+          </div>
+
+          <!-- Step 2 -->
+          <div class="flex flex-col items-start">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="assets/ic_round-email (1).png" alt="">
+              <p>Contact Number</p>
+            </div>
+            <input class="styled-input" type="text" placeholder="Enter your contact number">
+          </div>
+
+          <!-- Step 3 -->
+          <div class="flex flex-col items-start">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="assets/Frame 5 (1).png" alt="">
+              <p>Date of appointment</p>
+            </div>
+            <input class="styled-input" type="datetime-local">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900" id="mid1">Top <span> services</span>
+          we offer</h1>
+        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 mx-auto" id="mid2">
+          In today’s fast-paced world, your health deserves the utmost attention and convenience.
+          That’s why HealNet offers a suite of integrated services designed to cater to your healthcare needs digitally:
+        </p>
+      </div>
+
+      <!-- Top Row -->
+      <div class="flex flex-wrap justify-center mb-8 gap-6">
+
+        <!-- First card (double width) -->
+        <div class="bg-white border-glow rounded-xl p-6 w-full md:w-[48%] lg:w-[35%]" id="card1">
+          <div class="flex items-center mb-4">
+            <img src="assets/ic_round-email.png" class="w-10 h-10 mr-2" alt="">
+            <h2 class="text-lg font-medium text-gray-900">Online Consultation</h2>
+          </div>
+          <p class="text-gray-500">Consult with top doctors across various specialties via video or chat communication.
+            It’s totally secure, private, and convenient. Choose the best time for an in-person visit with our
+            easy-to-use scheduling system, or proceed with our online consultation.
+          <p>
+        </div>
+
+        <!-- Second card -->
+        <div class="bg-white border-glow rounded-xl p-6 w-full md:w-[48%] lg:w-[35%]" id="card">
+          <div class="flex items-center mb-4">
+            <img src="assets/ic_round-email (1).png" class="w-10 h-10 mr-2" alt="">
+            <h2 class="text-lg font-medium text-gray-900">Booking Appointments</h2>
+          </div>
+          <p class="text-gray-500">Choose the best time for an in-person visit with our easy-to-use scheduling system,
+            or proceed with our online consultation features.
+          <p>
+        </div>
+
+      </div>
+
+      <!-- Second Row (3 cards) -->
+      <div class="flex flex-wrap justify-center gap-6">
+
+        <div class="bg-white border-glow rounded-xl p-6 w-full md:w-[30%]" id="card">
+          <div class="flex items-center mb-4">
+            <img src="assets/Frame 5 (1).png" class="w-10 h-10 mr-2" alt="">
+            <h2 class="text-lg font-medium text-gray-900">Prescriptions</h2>
+          </div>
+          <p class="text-gray-500">Receive and renew prescriptions digitally after your consultation with our
+            specialists.</p>
+        </div>
+
+        <div class="bg-white border-glow rounded-xl p-6 w-full md:w-[30%]" id="card">
+          <div class="flex items-center mb-4">
+            <img src="assets/ic_round-email.png" class="w-10 h-10 mr-2" alt="">
+            <h2 class="text-lg font-medium text-gray-900">Medical notes</h2>
+          </div>
+          <p class="text-gray-500">Obtain necessary medical notes for work or school with only a few clicks of hassle.
+          </p>
+        </div>
+
+        <div class="bg-white border-glow rounded-xl p-6 w-full md:w-[30%]" id="card">
+          <div class="flex items-center mb-4">
+            <img src="assets/ic_round-email (1).png" class="w-10 h-10 mr-2" alt="">
+            <h2 class="text-lg font-medium text-gray-900">Medicine refills</h2>
+          </div>
+          <p class="text-gray-500">Skip the pharmacy queues and save time + energy by ordering medicine refills online.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about us-->
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto px-5 py-24" id="heals">
+
+      <h1 id="healtitle" class="text-3xl font-bold text-center mb-10">
+        HealNet's Story: <span> Get to know us</span>
+      </h1>
+
+      <div class="flex md:flex-row flex-col items-center">
+
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" id="healstory">
+          <img class="object-cover object-center rounded" alt="hero" src="assets/Female doc.png">
+        </div>
+
+        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start 
+             md:text-left items-center text-center">
+          <p class="mb-8 leading-relaxed text-xl">
+            HealNet is more than just an online medical service; it’s a movement towards accessible, efficient, and
+            compassionate healthcare for all. Founded by a team of visionary doctors, healthcare professionals, and
+            technology experts, we are driven by the mission to deliver exceptional medical care directly to you, no
+            matter where you are. Our platform is built on the pillars of trust, innovation, and patient-centricity,
+            ensuring that every interaction is personalized and every treatment plan is tailored to your unique needs.
+            With a network of licensed practitioners from diverse medical fields, we guarantee comprehensive care that’s
+            just a click away.
+          </p>
+
+          <div class="flex justify-center">
+            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 
+              focus:outline-none hover:bg-indigo-600 rounded text-lg" id="heal-btn">Learn more about us</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ <!-- blog-->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+
+      <!-- LEFT SIDE — LIST -->
+      <div class="flex flex-col flex-wrap lg:py-6 mb-10 lg:mb-0 lg:w-1/2 lg:pr-12 text-center">
+        <div class="flex flex-col mb-8 lg:items-start items-center" id="leftside">
+          <div
+            class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Create Profile</h2>
+            <p class="leading-relaxed text-base">Sign up and fill in your medical history securely. <br> Setting up your
+              profile this way would ensure that <br> you stay up-to-date with your medical processes.</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col mb-8 lg:items-start items-center" id="leftside">
+          <div
+            class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-6 h-6" viewBox="0 0 24 24">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Choose Your Service</h2>
+            <p class="leading-relaxed text-base">Select from our range of services and book a <br> consultation. Booking
+              a consultation with <br>HealNet is fairly simple and straight-forward.</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col mb-8 lg:items-start items-center" id="leftside">
+          <div
+            class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Meet Your Doctor</h2>
+            <p class="leading-relaxed text-base">Have a virtual consultation with one of our certified <br>specialists,
+              or go for a physical visit to the doctor in <br> case you opted for a physical check-up.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE — CUSTOM BLUE FRAME IMAGE CARD -->
+      <div class="lg:w-1/2 w-full flex justify-center lg:mt-[-50px] mt-10">
+        <div class="blue-card">
+
+          <div class="blue-card-border"></div>
+
+          <img src="assets/Doctor-PNG-Images 1 (1).png" alt="" class="blue-card-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- testimonial -->
+  <section class="text-gray-600 body-font" id="testimonials">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center"> Patient Testimonials: <br>
+        <span>Hear From Those We've Cared For</span>
+      </h1>
+      <p>Discover the difference we make through the voices of those we’ve served:</p>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/2 w-full">
+          <div class="h-full bg-gray-100 p-8 rounded" id="testicards">
+            <p class="leading-relaxed mb-6">“Managing chronic conditions like diabetes requires a lot of vigilance, but
+              the medicine refill system has simplified my life.”</p>
+            <a class="inline-flex items-center">
+              <img alt="testimonial" src="https://dummyimage.com/106x106"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <span class="flex-grow flex flex-col pl-4">
+                <span class="title-font font-medium text-gray-900">- Henry B.</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/2 w-full">
+          <div class="h-full bg-gray-100 p-8 rounded" id="testicards">
+            <p class="leading-relaxed mb-6">“After my knee surgery, the convenience of online consultations made my
+              recovery smoother than I could have imagined.”</p>
+            <a class="inline-flex items-center">
+              <img alt="testimonial" src="https://dummyimage.com/107x107"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <span class="flex-grow flex flex-col pl-4">
+                <span class="title-font font-medium text-gray-900">- Linda A.</span>
+                <span class="text-gray-500 text-sm"></span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4 text-center">
+        <div class="p-4 sm:w-1/4 w-1/2" id="stats-numbers">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">10,000+</h2>
+          <p class="leading-relaxed">Successful Consultations</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2" id="stats-numbers">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2,500+</h2>
+          <p class="leading-relaxed">Healthcare Professionals</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2" id="stats-numbers">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">98%</h2>
+          <p class="leading-relaxed">Patient Satisfaction Rate</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2" id="stats-numbers">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">200+</h2>
+          <p class="leading-relaxed">Top pecialists</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/2 w-full">
+          <div class="h-full bg-gray-100 p-8 rounded" id="testicards">
+            <p class="leading-relaxed mb-6">“The prescription refill system is a game-changer for managing my diabetes.
+              It’s really efficient and completely hassle-free.”</p>
+            <a class="inline-flex items-center">
+              <img alt="testimonial" src="https://dummyimage.com/106x106"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <span class="flex-grow flex flex-col pl-4">
+                <span class="title-font font-medium text-gray-900">- Joshua T.</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/2 w-full">
+          <div class="h-full bg-gray-100 p-8 rounded" id="testicards">
+            <p class="leading-relaxed mb-6">“Finding a doctor who really understands all of my health needs has never
+              been easier. This platform has changed my life.”</p>
+            <a class="inline-flex items-center">
+              <img alt="testimonial" src="https://dummyimage.com/107x107"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <span class="flex-grow flex flex-col pl-4">
+                <span class="title-font font-medium text-gray-900">- Samantha K.</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- contactus -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" id="end">Reach Our <span> Help
+            Desk</span> For Support</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base" id="contact-form-container">Questions? Need assistance? Our dedicated support team is
+          here to help you every step of the way:</p>
+      </div>
+      <div
+        class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+        <div class="relative flex-grow w-full" id="end1">
+          <input type="text" id="full-name" name="full-name" placeholder="Name"
+            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative flex-grow w-full" id="end2">
+          <input type="email" id="email" name="email" placeholder="Email"
+            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <button
+          class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+          id="endbtn">Contact Us -></button>
+      </div>
+    </div>
+  </section>
+
+<!-- footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="brand-section">
+        <img src="assets/Group 23.png " alt="">
+        <p>Experience personalized medical care from the comfort of your home.</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Getting Started</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Help Articles</a></li>
+          <li><a href="#">Report an issue</a></li>
+          <li><a href="#">Contact Help Desk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Booking appointments</a></li>
+          <li><a href="#">Online consultations</a></li>
+          <li><a href="#">Prescriptions</a></li>
+          <li><a href="#">Medicine Refills</a></li>
+          <li><a href="#">Medical Notes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookie Notice</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Trust Center</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      HealNet 2024 © All Rights Reserved
+    </div>
+  </footer>
+</body>
+</html>
